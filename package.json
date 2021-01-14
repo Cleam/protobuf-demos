@@ -1,0 +1,24 @@
+{
+  "name": "protobuf-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "proto": "pbjs -t json-module -w commonjs -o src/proto/proto.js  src/proto/*.proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleam/protobuf-demos.git"
+  },
+  "keywords": [],
+  "author": "lizhigao <lizhigao1231@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cleam/protobuf-demos/issues"
+  },
+  "homepage": "https://github.com/Cleam/protobuf-demos#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "protobufjs": "^6.10.2"
+  }
+}
